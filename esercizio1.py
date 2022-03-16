@@ -1,7 +1,4 @@
-lista=[1,4,67,59]
-a=sum(lista)
-print('Sum of list: {}'.format(a))
-
+#lista=[1,4,67,59]
 def somma (list):
     Sum=0
     #for i in range(len(list)):
@@ -9,5 +6,5 @@ def somma (list):
     for element in list:
         Sum+= element
     return Sum
-risult = somma(lista)
-print('Sum of list: {}'.format(risult))        
+#result = somma(lista)
+#print('Sum of list: {}'.format(result))
