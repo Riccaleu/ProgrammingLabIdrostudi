@@ -1,9 +1,9 @@
 
-def sum_list2 (list):
-    sum=0
-    for element in list:
-        sum+= element
-    return sum
+#def sum_list2 (list):
+#   sum=0
+#   for element in list:
+#        sum+= element
+#    return sum
 
 from lezione2 import sum_list
 def sum_csv(file_name):
@@ -20,6 +20,7 @@ def sum_csv(file_name):
             value = elements[1]
 # Aggiungo alla lista dei valori questo valore
             values.append(float(value))
+    my_file.close()
     return sum_list(values)
 
 print(sum_csv('shampoo_sales.csv'))
