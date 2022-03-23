@@ -12,5 +12,5 @@ class CsvFile():
                 value = elements[1]
                 values.append([date,value])
         return values
-#file=CsvFile('shampoo_sales.csv')
-#print(file.get_data())
+file=CsvFile('shampoo_sales.csv')
+print(file.get_data())
